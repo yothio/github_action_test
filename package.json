@@ -1,0 +1,8 @@
+{
+  "name": "github_action_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yothio/github_action_test.git",
+  "author": "shiota yoshiki <shiotyan317@gmail.com>",
+  "license": "MIT"
+}
