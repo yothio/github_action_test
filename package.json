@@ -2,10 +2,14 @@
   "name": "github_action_test",
   "private": true,
   "version": "0.1.0",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "prod:build": "webpack --mode=production"
+  },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.19.1"
-  },
-  "license": "MIT",
-  "scripts": {}
+    "prettier": "^1.19.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
