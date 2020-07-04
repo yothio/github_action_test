@@ -16,5 +16,6 @@ jobs:
       run: |
         yarn install
         yarn prod:build
+        yarn deploy
       env:
         CI: true
